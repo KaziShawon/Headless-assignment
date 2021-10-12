@@ -26,7 +26,6 @@
             <li><a href="#folders-overview">Folders Overview</a></li>
         </ul>
         <li><a href="#project-setup">Project Setup</a></li>
-
     </ol>
 </details>
 
