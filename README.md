@@ -34,7 +34,7 @@ For this project we have to modify the given sample code in such a way so that w
 
 ### Goals
 - **Task 1**: Apply multithreading to read frames with opencv. The steps are:
--       - and every frame from four videos we combine them and create a single image, if a video stops giving output 
+   - and every frame from four videos we combine them and create a single image, if a video stops giving output 
 
 - **Task 2**: Evaluate the best-performing model once per hour for all case and control events, find an optimal threshold for alerting staff, and count the number of instances the algorithm exceeds that threshold (an 'alert') and when. Consider a prediction in the second hour as a true alert and all other alerts as false.
 
