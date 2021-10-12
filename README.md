@@ -34,14 +34,17 @@ For this project we have to modify the given sample code in such a way so that w
 
 ### Goals
 - **Task 1**: Apply multithreading to read frames with opencv. The steps are:
-   - and every frame from four videos we combine them and create a single image, if a video stops giving output 
+   - From every frame of respective four videos we combine them and create a single image.
+   - If a video is finished then we need to continue giving blank image until most lengthy video continues and combine the images and pass it to inference.
 
-- **Task 2**: Evaluate the best-performing model once per hour for all case and control events, find an optimal threshold for alerting staff, and count the number of instances the algorithm exceeds that threshold (an 'alert') and when. Consider a prediction in the second hour as a true alert and all other alerts as false.
+- **Task 2**: Apply mmdet + mmpose
+    - Of every combined image we run inference and get the output image.
+    - We pass the predicted image to opencv videowrite method to save it as a video.
 
 ### Recommended Project Plan
 
 <center>
-    <img src="https://i.ibb.co/LdZGCCy/Screenshot-from-2021-09-14-10-39-46.png"></img>
+    <img src="https://i.ibb.co/jG2p5vF/project-plan.png" alt="project-plan" border="0">
 </center>
 
 ### Deliverables
