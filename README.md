@@ -30,10 +30,11 @@
 </details>
 
 ## About the Project
-For this project we are going to predict cardiac arrest, which is a life-threatening medical event that affects thousands of patients around the world every year. For this problem, machine learning seems to be the best approach to alert hospitals with anticipation that a patient will have a cardiac arrest. This will improve the survival rates of patients.
+For this project we have to modify the given sample code in such a way so that we can track and detect pose data from 4 different video streams at one go. So basically the idea is: we have to parallely extract frames from 4 videos and merge every 4 frames into a single frame and run that frame through mmdet + mmpose.
 
 ### Goals
-- **Task 1**: Design a classification ML algorithm capable of separating the group of patients that will experience cardiac arrest from those that do not. 
+- **Task 1**: Apply multithreading to read frames with opencv. The steps are:
+-       - and every frame from four videos we combine them and create a single image, if a video stops giving output 
 
 - **Task 2**: Evaluate the best-performing model once per hour for all case and control events, find an optimal threshold for alerting staff, and count the number of instances the algorithm exceeds that threshold (an 'alert') and when. Consider a prediction in the second hour as a true alert and all other alerts as false.
 
