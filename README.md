@@ -44,7 +44,7 @@ For this project we have to modify the given sample code in such a way so that w
 ### Recommended Project Plan
 
 <center>
-    <img src="https://i.ibb.co/jG2p5vF/project-plan.png" alt="project-plan" border="0">
+    <img src="https://i.ibb.co/gJgpmgp/project-plan.jpg" alt="project-plan" border="0">
 </center>
 
 ### Deliverables
