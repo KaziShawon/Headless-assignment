@@ -158,10 +158,10 @@ def main():
     def threadVideoGet(source=None):
         """
         Dedicated thread for grabbing video frames with VideoGet object.
+        :param: source will take video path and pass it to VideoGet
         """
 
         video_getter = VideoGet(source).start()
-
         while True:
             if (cv2.waitKey(1) == ord("q")) or video_getter.stopped:
                 video_getter.stop()
