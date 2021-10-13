@@ -20,7 +20,7 @@
             <li><a href="#recommended-project-plan">Recommended Project Plan</a></li>
             <li><a href="#deliverables">Deliverables</a></li>
         </ul>
-        <li><a href="#Steps to start solving">How to Make a Contribution</a></li>
+        <li><a href="#Code Explanation">Code Explanation</a></li>
         <li><a href="#project-directory-structure">Project Directory Structure</a></li>
         <ul>
             <li><a href="#folders-overview">Folders Overview</a></li>
