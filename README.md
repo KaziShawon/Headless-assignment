@@ -70,15 +70,15 @@ Import videos's path and save it to list. Assert if it has only four videos, rai
 
 #### Modify 2: 
 Intialize the video capture and asserting if any of them fails to load.
-<img src="https://i.ibb.co/hY96c48/assert-cv2.jpg" alt="assert-cv2" border="0">
+<a href="https://ibb.co/CP8c6Y0"><img src="https://i.ibb.co/hY96c48/assert-cv2.jpg" alt="assert-cv2" border="0"></a>
 
 #### Modify 3:
 Getting minimum fps and maximum size from all the videos and intializing `VideoWriter` to write the detected images as `.mp4` format.
-<img src="https://i.ibb.co/vPM4psY/videowrite.jpg" alt="videowrite" border="0">
+<a href="https://ibb.co/ts1pgZX"><img src="https://i.ibb.co/vPM4psY/videowrite.jpg" alt="videowrite" border="0"></a>
 
 #### Modify 4: 
 Initializing threadVideoGet function where it will take video path and call the `VideoGet`, initialize thread and extract frames.
-<img src="https://i.ibb.co/dcxywnn/thread-vdo-get.jpg" alt="thread-vdo-get" border="0">
+<a href="https://ibb.co/hMwvJpp"><img src="https://i.ibb.co/dcxywnn/thread-vdo-get.jpg" alt="thread-vdo-get" border="0"></a>
 
 ### Folder Overview
 
