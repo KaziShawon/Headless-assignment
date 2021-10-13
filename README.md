@@ -89,6 +89,13 @@ We initialize video sorting function, where it returns the most lengthy video at
 
 <a href="https://ibb.co/VJH0GTn"><img src="https://i.ibb.co/4KswLpv/sort-video.jpg" alt="sort-video"></a>
 
+#### Modify 6:
+- We use Infinite loop until the mosth lengthy video stops giving frame.
+- Till then, for the shorter videos we pass blank images of the required size.
+- In the loop we start the threading and extract the images and success condition.
+
+<a href="https://ibb.co/VJqc7w4"><img src="https://i.ibb.co/CmH3kPG/while.jpg" alt="while"></a>
+
 
 ### Folder Overview
 
@@ -98,12 +105,4 @@ We initialize video sorting function, where it returns the most lengthy video at
 - Reports - Folder to contain all final reports of the project.
 - References - Folder to contain all referenced code and research papers used in the project.
 
-## Project Setup
-
-```bash
-  $ git clone https://github.com/OmdenaAI/Transformative
-  $ cd Transformative
-
-  $ pip install -r requirements.txt
-```
 
