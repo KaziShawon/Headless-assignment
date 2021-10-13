@@ -66,19 +66,19 @@ For this project we have to modify the given sample code in such a way so that w
 We modify the given example to a extend to use the threading and apply mmdet + mmpose.
 #### Modify 1: 
 Import videos's path and save it to list. Assert if it has only four videos, raise error if it's less than 4 or more than 4.
-<img src="https://i.ibb.co/VBfW7bP/glob.jpg" alt="glob" border="0">
+<img src="https://i.ibb.co/VBfW7bP/glob.jpg" alt="glob">
 
-#### Modify 2: 
-Intialize the video capture and asserting if any of them fails to load.
-<a href="https://ibb.co/CP8c6Y0"><img src="https://i.ibb.co/hY96c48/assert-cv2.jpg" alt="assert-cv2" border="0"></a>
+#### Modify 2: Intialize the video capture and asserting if any of them fails to load.
+<a href="https://ibb.co/CP8c6Y0"><img src="https://i.ibb.co/hY96c48/assert-cv2.jpg" alt="assert-cv2"></a>
 
 #### Modify 3:
 Getting minimum fps and maximum size from all the videos and intializing `VideoWriter` to write the detected images as `.mp4` format.
-<a href="https://ibb.co/ts1pgZX"><img src="https://i.ibb.co/vPM4psY/videowrite.jpg" alt="videowrite" border="0"></a>
+<a href="https://ibb.co/ts1pgZX"><img src="https://i.ibb.co/vPM4psY/videowrite.jpg" alt="videowrite"></a>
 
 #### Modify 4: 
 Initializing threadVideoGet function where it will take video path and call the `VideoGet`, initialize thread and extract frames.
-<a href="https://ibb.co/hMwvJpp"><img src="https://i.ibb.co/dcxywnn/thread-vdo-get.jpg" alt="thread-vdo-get" border="0"></a>
+<a href="https://ibb.co/hMwvJpp"><img src="https://i.ibb.co/dcxywnn/thread-vdo-get.jpg" alt="thread-vdo-get"></a>
+
 
 ### Folder Overview
 
