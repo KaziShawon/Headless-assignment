@@ -49,6 +49,13 @@ For this project we have to modify the given sample code in such a way so that w
 
 ## Code Explantaion
 
+- **The Approaches are:**
+    - We initialize a multithreading instance, what we will call it to extract frames of the given video path.
+    - We create four threads for four videos that are given to use and pass the frames for further processing.
+    - Check if the video stops giving frames, if yes and it is not the most lengthy video one then create a blank image and pass it.
+    - We combine the four images to create a single image. So, there will four portions in the combined image, which is given from four threads or blank image if the video stops streaming.
+    - We resize the image in 1920 X 1080 and pass it to mmdet and mmpose for detecting, pose estimating and tracking the humans.
+
 ### Multithreading (video_get.py)
 - We embrace instance method to use multithreading.
     -  In VideoGet class we initialize `VideoCapture` method.
