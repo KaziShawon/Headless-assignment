@@ -87,7 +87,7 @@ Initializing threadVideoGet function where it will take video path and call the 
 #### Modify 5:
 We initialize video sorting function, where it returns the most lengthy video at the first index of the list.
 
-<a href="https://ibb.co/VJH0GTn"><img src="https://i.ibb.co/4KswLpv/sort-video.jpg" alt="sort-video"></a>
+<a href="https://ibb.co/cxjM8fP"><img src="https://i.ibb.co/FnFNYZ9/video-sorting.jpg" alt="video-sorting" border="0"></a>
 
 #### Modify 6:
 - We use Infinite loop until the mosth lengthy video stops giving frame.
