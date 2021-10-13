@@ -59,9 +59,9 @@ For this project we have to modify the given sample code in such a way so that w
     -  VideoGet class we initialize `VideoCapture` method.
     -  With start function we initialize the thread method and pass the function we are interested to run in thread.
     -  The get function will continue extracting frames until the video provides false when extracting images.
-<center>
-    <img src="https://i.ibb.co/4MFQDvj/video-get.jpg" alt="video-get" border="0">
-</center>
+    <center>
+        <img src="https://i.ibb.co/4MFQDvj/video-get.jpg" alt="video-get" border="0">
+    </center>
 
 - If you're creating a task, go to the tasks folder and create a new folder with the below naming convention and add a README.md with tasks details and goals to help other contributors understand.
     - Task Folder Naming Convention : _task-n-taskname (where n is the task number)_ ex: task-1-information-gathering, task-2-exploratory-data-analysis, etc.
