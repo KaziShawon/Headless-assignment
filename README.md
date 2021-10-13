@@ -21,11 +21,6 @@
             <li><a href="#deliverables">Deliverables</a></li>
         </ul>
         <li><a href="#Code Explanation">Code Explanation</a></li>
-        <li><a href="#project-directory-structure">Project Directory Structure</a></li>
-        <ul>
-            <li><a href="#folders-overview">Folders Overview</a></li>
-        </ul>
-        <li><a href="#project-setup">Project Setup</a></li>
     </ol>
 </details>
 
@@ -96,13 +91,5 @@ We initialize video sorting function, where it returns the most lengthy video at
 
 <a href="https://ibb.co/VJqc7w4"><img src="https://i.ibb.co/CmH3kPG/while.jpg" alt="while"></a>
 
-
-### Folder Overview
-
-- Data - Folder to contain all the data collected, manipulated, and used in this project.
-- Tasks - Folder to contain all individual tasks.
-- Models - Folder to contain all trained and serialized nodels.
-- Reports - Folder to contain all final reports of the project.
-- References - Folder to contain all referenced code and research papers used in the project.
 
 
