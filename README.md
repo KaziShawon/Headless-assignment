@@ -56,21 +56,31 @@ For this project we have to modify the given sample code in such a way so that w
 
 ### Multithreading (video_get.py)
 - We embrace instance method to use multithreading.
-    -  VideoGet class we initialize `VideoCapture` method.
+    -  In VideoGet class we initialize `VideoCapture` method.
     -  With start function we initialize the thread method and pass the function we are interested to run in thread.
     -  The get function will continue extracting frames until the video provides false when extracting images.
     <center>
         <img src="https://i.ibb.co/4MFQDvj/video-get.jpg" alt="video-get" border="0">
     </center>
-
-- If you're creating a task, go to the tasks folder and create a new folder with the below naming convention and add a README.md with tasks details and goals to help other contributors understand.
-    - Task Folder Naming Convention : _task-n-taskname (where n is the task number)_ ex: task-1-information-gathering, task-2-exploratory-data-analysis, etc.
-    - Create a README.md with a table containing information table about all contributions for the task.
-- If you're contributing for a task, please make sure to store in relavant location and update the README.md information table with your contribution details.
-- Make sure your file names (jupyter notebooks, python files, data sheet file names etc) has proper naming to help others in easily identifing them.
-- Please restrict yourself from creating unnessesary folders other than in 'tasks' folder (as above mentioned naming convention) to avoid confusion.
-- Always document your classes, functions and notebooks to help others understand their objective.
-
+### Detection + Pose Estimation +  Tracking
+- We modify the given example to a extend to use the threading and apply mmdet + mmpose.
+- **Modify 1**: Import videos's path and save it to list. Assert if it has only four videos, raise error if it's less than 4 or more than 4.
+    <center>
+        <img src="https://i.ibb.co/VBfW7bP/glob.jpg" alt="glob" border="0">
+    </center>
+- **Modify 2**: Intialize the video capture and asserting if any of them fails to load.
+    <center>
+        <img src="https://i.ibb.co/hY96c48/assert-cv2.jpg" alt="assert-cv2" border="0">
+    </center>
+- **Modify 3**: Getting minimum fps and maximum size from all the videos and intializing `VideoWriter` to write the detected images as `.mp4` format.
+    <center>
+        <img src="https://i.ibb.co/vPM4psY/videowrite.jpg" alt="videowrite" border="0">
+    </center>
+- **Modify 4**: Initializing threadVideoGet function where it will take video path and call the `VideoGet`, initialize thread and extract frames.
+<center>
+    <img src="https://i.ibb.co/dcxywnn/thread-vdo-get.jpg" alt="thread-vdo-get" border="0">
+<center>
+- **Modify 5**:    
 
 ### Folder Overview
 
