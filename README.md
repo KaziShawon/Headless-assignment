@@ -77,7 +77,7 @@ Modify 2: Intialize the video capture and asserting if any of them fails to load
 #### Modify 3:
 Getting minimum fps and maximum size from all the videos and intializing `VideoWriter` to write the detected images as `.mp4` format.
 
-<a href="https://ibb.co/ts1pgZX"><img src="https://i.ibb.co/vPM4psY/videowrite.jpg" alt="videowrite"></a>
+<a href="https://ibb.co/BnTvVBW"><img src="https://i.ibb.co/XYF6Zt0/video-write.jpg" alt="video-write" border="0"></a>
 
 #### Modify 4: 
 Initializing threadVideoGet function where it will take video path and call the `VideoGet`, initialize thread and extract frames.
