@@ -82,7 +82,7 @@ Getting minimum fps and maximum size from all the videos and intializing `VideoW
 #### Modify 4: 
 Initializing threadVideoGet function where it will take video path and call the `VideoGet`, initialize thread and extract frames.
 
-<a href="https://ibb.co/hMwvJpp"><img src="https://i.ibb.co/dcxywnn/thread-vdo-get.jpg" alt="thread-vdo-get"></a>
+<a href="https://ibb.co/X2zVJw2"><img src="https://i.ibb.co/tmb3Cdm/assert-vdocapture.jpg" alt="assert-vdocapture" border="0"></a>
 
 #### Modify 5:
 We initialize video sorting function, where it returns the most lengthy video at the first index of the list.
