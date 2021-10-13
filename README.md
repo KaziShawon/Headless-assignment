@@ -48,9 +48,9 @@ For this project we have to modify the given sample code in such a way so that w
 </center>
 
 ### Deliverables
-- **Deliverable 1**: A report detailing the analysis methodology and results.
-- **Deliverable 2**: Well-thought out, thoroughly annotated and visually pleasing figures explaining the analysis methodology and results.
-- **Deliverable 3**: A clearly-annotated body of code capturing the analysis. (src folder) 
+- **Deliverable 1**: A script that embrace multithreading with OpenCV and returns images.
+- **Deliverable 2**: Modified script of the given example to incorporate the multithreading and mmdet + pose estmation + object tracking
+- **Deliverable 3**: A alternative script that doesn't use multithreading but do the job.
 
 ## How to Make a Contribution
 - Have a look at the [project directory structure](#project-directory-structure) and the [folder overview](#folder-overview) to understand where to store/upload your contribution.
@@ -62,34 +62,6 @@ For this project we have to modify the given sample code in such a way so that w
 - Please restrict yourself from creating unnessesary folders other than in 'tasks' folder (as above mentioned naming convention) to avoid confusion.
 - Always document your classes, functions and notebooks to help others understand their objective.
 
-
-## Project Directory Structure
-
-The directory structure for this project will look like this:
-
-```
-├── README.md
-├── requirements.txt        <- Requirements file for reproducing the environment.
-│
-├── data
-│   ├── raw                 <- The original, immutable data dump.
-│   ├── interim             <- Intermediate data that has been transformed for later use.
-│   └── processed           <- The final, canonical data sets for modeling.
-│
-├── tasks                   <- All contributions organized by folders.
-│   ├── task-0-template-folder
-│   ├── task-1-data-gathering-and-preprocessing
-│   ├── task-2-visualizations-and-machine-learning-explainability
-│   ├── task-3-feature-engineering-and-model-experiments
-│   ├── task-4-deliverables-and-deployment
-│   ...
-│
-├── models                  <- Trained and serialized models, model predictions, or model summaries.
-├── reports                 <- All final reports of the project.
-│   └── figures             <- Figures used to generate reports.
-│
-└── references              <- Research papers, referenced code.
-```
 
 ### Folder Overview
 
